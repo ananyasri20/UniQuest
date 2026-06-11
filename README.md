@@ -1,56 +1,117 @@
-# Welcome to your Expo app 👋
+# UniQuest
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+UniQuest is a study abroad exploration app built with React Native and Expo. The idea behind this project was to create a simple and user-friendly platform where students can discover top universities around the world and access important information such as rankings, tuition fees, acceptance rates, and popular programs.
 
-## Get started
+This project was built as a learning exercise to strengthen my React Native, Expo Router, and mobile UI development skills.
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+* Browse top universities from different countries
+* Search universities by name
+* View university rankings and key statistics
+* Explore popular programs offered by each university
+* Detailed university information page
+* Clean and responsive user interface
 
-2. Start the app
+## Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+* React Native
+* Expo
+* Expo Router
+* JavaScript
+* React Hooks
 
-In the output, you'll find options to open the app in a
+## Project Structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+```text
+src
+├── app
+│   ├── _layout.tsx
+│   ├── index.tsx
+│   └── university
+│       └── [id].tsx
+│
+├── components
+│   └── UniversityCard.js
+│
+└── data
+    └── universities.js
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+assets
+└── images
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Getting Started
 
-### Other setup steps
+### 1. Clone the Repository
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```bash
+git clone https://github.com/ananyasri20/UniQuest.git
+cd UniQuest
+```
 
-## Learn more
+### 2. Install Dependencies
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 3. Start the Application
 
-## Join the community
+```bash
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+### 4. Run on Your Device
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Install Expo Go on your Android or iOS device.
+* Make sure your phone and computer are connected to the same network.
+* Scan the QR code shown in the terminal.
+
+### Run on Web
+
+```bash
+npm run web
+```
+
+## Screenshots
+
+### Home Screen
+
+(Add screenshot here)
+
+### University Details Screen
+
+(Add screenshot here)
+
+## What I Learned
+
+While building this project, I practiced:
+
+* React Native fundamentals
+* Expo Router navigation
+* Component-based architecture
+* State management with React Hooks
+* Mobile UI design and styling
+* Working with dynamic data and reusable components
+
+## Future Improvements
+
+* University comparison feature
+* Scholarship recommendations
+* Country and program filters
+* Favorites/Wishlist functionality
+* Study cost calculator
+* Real university data integration using APIs
+
+## Author
+
+**Ananya Srivastava**
+
+GitHub: https://github.com/ananyasri20
+
+
+
+---
+
+If you found this project interesting, feel free to star the repository ⭐
